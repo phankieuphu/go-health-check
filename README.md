@@ -1,5 +1,7 @@
 # go-health-check
 
+[![CI](https://github.com/phankieuphu/go-health-check/actions/workflows/ci.yml/badge.svg)](https://github.com/phankieuphu/go-health-check/actions/workflows/ci.yml)
+
 Configurable liveness (`/healthz`) and readiness (`/readyz`) probes for Go services.
 
 - Framework-agnostic core (`net/http`), plus a gin adapter (`ginhealth`)
