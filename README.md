@@ -92,3 +92,7 @@ Status codes: 200 for `ok`/`ready`, 503 for `down`/`not_ready`/`draining`.
 ## Liveness vs. readiness
 
 Don't put dependency checks in liveness. If Postgres goes down, a failing liveness probe makes the orchestrator restart every replica, which fixes nothing. Dependencies belong in readiness, which only takes the pod out of the load balancer.
+
+## License
+
+[MIT](LICENSE)
